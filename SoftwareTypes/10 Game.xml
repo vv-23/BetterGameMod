@@ -3,7 +3,7 @@
 	<Category>Games</Category>
 	<Description>Games are things you play. YOU WILL NOW COMMENCE ENJOYMENT</Description>
 	<Random>0.13</Random>
-	<Popularity>0.00015</Popularity>    
+	<Popularity>0.00018</Popularity>    
     <Retention>0.7</Retention>
     <Iterative>0.5</Iterative>
 	<OSSpecific>True</OSSpecific>
@@ -11,6 +11,51 @@
 	<InHouse>True</InHouse>
 	<IdealPrice>27.94</IdealPrice>
 	<Categories>
+		<Category Name="Hockey">
+			<Description>Create a Hockey Game (Like NHL)</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>GameAdvAct</NameGenerator>
+			<IdealPrice>39.99</IdealPrice>
+		</Category>
+		<Category Name="Basketball">
+			<Description>Create a Basketball Game (Like NBA 2K)</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>GameAdvAct</NameGenerator>
+			<IdealPrice>39.99</IdealPrice>
+		</Category>
+		<Category Name="Football">
+			<Description>Touchdown! Create a football game (Like Madden NFL or NCAA)</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>GameAdvAct</NameGenerator>
+			<IdealPrice>39.99</IdealPrice>
+		</Category>
+		<Category Name="Mountainbiking">
+			<Description>Go for a bike ride through the back hills....or go off some jumps</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>GameAdvAct</NameGenerator>
+			<IdealPrice>29.99</IdealPrice>
+		</Category>
+		<Category Name="Skateboarding">
+			<Description>Shread The Half-Pipes in A Skateboarding Game</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>GameAdvAct</NameGenerator>
+			<IdealPrice>39.99</IdealPrice>
+		</Category>
 		<Category Name="FPS">
 			<Description>First Person Shooter(s)(Like Call of Duty)</Description>
 			<Popularity>0.8</Popularity>
@@ -234,6 +279,205 @@
 		</Category>			
 	</Categories>
     <Features>
+			<Feature Forced="False">
+			<Name>Updates</Name>
+			<Category>System</Category>
+			<Description>Allows updates to occur for the game</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Hockey">2000</SoftwareCategory>
+			<SoftwareCategory Category="Basketball">2000</SoftwareCategory>
+			<SoftwareCategory Category="Football">2000</SoftwareCategory>
+			<SoftwareCategory Category="Mountainbiking">2000</SoftwareCategory>
+			<SoftwareCategory Category="Skateboarding">2000</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Life Simulation Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVE">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVP">2000</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2000</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports">2000</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<SoftwareCategory Category="First Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Platformer">2000</SoftwareCategory>
+			<SoftwareCategory Category="Fighting Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="Brawler">2000</SoftwareCategory>
+			<SoftwareCategory Category="Projectile Hell">2000</SoftwareCategory>
+			<SoftwareCategory Category="Third Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tactical Shooter">2000</SoftwareCategory>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+			<SoftwareCategory Category="Flight Sim">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tycoon">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports Management">2000</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2000</SoftwareCategory>
+			<SoftwareCategory Category="Real Time Tactics">2000</SoftwareCategory>
+			<SoftwareCategory Category="Clicker">2000</SoftwareCategory>
+			<SoftwareCategory Category="Battle Royale">2000</SoftwareCategory>
+		</Feature>
+			<Feature Forced="False">
+			<Name>Micro-Transactions</Name>
+			<Category>In-Game Store</Category>
+			<Description>Allows Players To Purchase ex. Credits in A Game</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2004</Unlock>
+			<SoftwareCategory Category="Hockey">2000</SoftwareCategory>
+			<SoftwareCategory Category="Basketball">2000</SoftwareCategory>
+			<SoftwareCategory Category="Football">2000</SoftwareCategory>
+			<SoftwareCategory Category="Mountainbiking">2000</SoftwareCategory>
+			<SoftwareCategory Category="Skateboarding">2000</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Life Simulation Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVE">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVP">2000</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2000</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports">2000</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<SoftwareCategory Category="First Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Platformer">2000</SoftwareCategory>
+			<SoftwareCategory Category="Fighting Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="Brawler">2000</SoftwareCategory>
+			<SoftwareCategory Category="Projectile Hell">2000</SoftwareCategory>
+			<SoftwareCategory Category="Third Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tactical Shooter">2000</SoftwareCategory>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+			<SoftwareCategory Category="Flight Sim">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tycoon">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports Management">2000</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2000</SoftwareCategory>
+			<SoftwareCategory Category="Real Time Tactics">2000</SoftwareCategory>
+			<SoftwareCategory Category="Clicker">2000</SoftwareCategory>
+			<SoftwareCategory Category="Battle Royale">2000</SoftwareCategory>
+		</Feature>
+		<Feature From="Micro-Transactions">
+			<Name>Loot-Crates</Name>
+			<Category>In-Game Store</Category>
+			<ArtCategory>Micro-Transactions</ArtCategory>
+            <Description>Like CSGO or Call of Duty</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game">Micro-Transactions</Dependency>
+			<SoftwareCategory Category="Hockey">2000</SoftwareCategory>
+			<SoftwareCategory Category="Basketball">2000</SoftwareCategory>
+			<SoftwareCategory Category="Football">2000</SoftwareCategory>
+			<SoftwareCategory Category="Mountainbiking">2000</SoftwareCategory>
+			<SoftwareCategory Category="Skateboarding">2000</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Life Simulation Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVE">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVP">2000</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2000</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports">2000</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<SoftwareCategory Category="First Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Platformer">2000</SoftwareCategory>
+			<SoftwareCategory Category="Fighting Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="Brawler">2000</SoftwareCategory>
+			<SoftwareCategory Category="Projectile Hell">2000</SoftwareCategory>
+			<SoftwareCategory Category="Third Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tactical Shooter">2000</SoftwareCategory>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+			<SoftwareCategory Category="Flight Sim">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tycoon">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports Management">2000</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2000</SoftwareCategory>
+			<SoftwareCategory Category="Real Time Tactics">2000</SoftwareCategory>
+			<SoftwareCategory Category="Clicker">2000</SoftwareCategory>
+			<SoftwareCategory Category="Battle Royale">2000</SoftwareCategory>
+		</Feature>
+			<Feature Forced="False">
+			<Name>Player Customization/Creation</Name>
+			<Category>3D</Category>
+			<Description>Allows modification of In-Game Avatar(s)</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Hockey">2000</SoftwareCategory>
+			<SoftwareCategory Category="Basketball">2000</SoftwareCategory>
+			<SoftwareCategory Category="Football">2000</SoftwareCategory>
+			<SoftwareCategory Category="Mountainbiking">2000</SoftwareCategory>
+			<SoftwareCategory Category="Skateboarding">2000</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Life Simulation Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVE">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVP">2000</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2000</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports">2000</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<SoftwareCategory Category="First Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Platformer">2000</SoftwareCategory>
+			<SoftwareCategory Category="Fighting Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="Brawler">2000</SoftwareCategory>
+			<SoftwareCategory Category="Projectile Hell">2000</SoftwareCategory>
+			<SoftwareCategory Category="Third Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tactical Shooter">2000</SoftwareCategory>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+			<SoftwareCategory Category="Flight Sim">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tycoon">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports Management">2000</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2000</SoftwareCategory>
+			<SoftwareCategory Category="Real Time Tactics">2000</SoftwareCategory>
+			<SoftwareCategory Category="Clicker">2000</SoftwareCategory>
+			<SoftwareCategory Category="Battle Royale">2000</SoftwareCategory>
+		</Feature>
+			<Feature Forced="False">
+			<Name>DLC Content</Name>
+			<Category>System</Category>
+			<Description>Allows modification of game files to create extra levels, game mechanics and more.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Hockey">2000</SoftwareCategory>
+			<SoftwareCategory Category="Basketball">2000</SoftwareCategory>
+			<SoftwareCategory Category="Football">2000</SoftwareCategory>
+			<SoftwareCategory Category="Mountainbiking">2000</SoftwareCategory>
+			<SoftwareCategory Category="Skateboarding">2000</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Life Simulation Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVE">2000</SoftwareCategory>
+			<SoftwareCategory Category="PVP">2000</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2000</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports">2000</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<SoftwareCategory Category="First Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Platformer">2000</SoftwareCategory>
+			<SoftwareCategory Category="Fighting Game">2000</SoftwareCategory>
+			<SoftwareCategory Category="Brawler">2000</SoftwareCategory>
+			<SoftwareCategory Category="Projectile Hell">2000</SoftwareCategory>
+			<SoftwareCategory Category="Third Person Adventure">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tactical Shooter">2000</SoftwareCategory>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+			<SoftwareCategory Category="Flight Sim">2000</SoftwareCategory>
+			<SoftwareCategory Category="Tycoon">2000</SoftwareCategory>
+			<SoftwareCategory Category="Sports Management">2000</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2000</SoftwareCategory>
+			<SoftwareCategory Category="Real Time Tactics">2000</SoftwareCategory>
+			<SoftwareCategory Category="Clicker">2000</SoftwareCategory>
+			<SoftwareCategory Category="Battle Royale">2000</SoftwareCategory>
+		</Feature>
         <Feature Forced="True">
             <Name>Worldbuilding</Name>
 			<Category>Databases</Category>

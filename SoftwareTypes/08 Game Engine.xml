@@ -3,7 +3,7 @@
 	<Category>Game Engines</Category>
 	<Description>Game engines power game development.</Description>
 	<Random>0.44</Random>
-	<Popularity>0.00015</Popularity>    
+	<Popularity>0.0002</Popularity>    
     <Retention>0.9</Retention>
     <Iterative>0.9</Iterative>
 	<OSSpecific>True</OSSpecific>
@@ -11,7 +11,462 @@
 	<InHouse>True</InHouse>
 	<NameGenerator>Engine</NameGenerator>
     <Features>
+        <Feature Forced="False">
+            <Name>Animal NPCs</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Modeling</ArtCategory>
+            <Description>Create Animal NPCs</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2006</Unlock>
+		</Feature>
+		<Feature From="Animal NPCs" Vital="TRUE">
+			<Name>Better Animal NPCs</Name>
+			<Category>Coding</Category>
+			<Description>Improve Animal NPCs</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">Animal NPCs</Dependency>
+		</Feature>
+		<Feature From="Better Animal NPCs" Vital="TRUE">
+			<Name>Realistic Animals</Name>
+			<Category>Coding</Category>
+			<Description>Realistic Animal NPCs</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">Better Animal NPCs</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Realistic NPC/Player Hair</Name>
+			<Category>3D</Category>
+			<ArtCategory>Modeling</ArtCategory>
+            <Description>Create Realistic Hair For NPCs and Players</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2010</Unlock>
+		</Feature>
+		<Feature From="Realistic NPC/Player Hair" Vital="TRUE">
+			<Name>Realistic NPC/Player Hair V2</Name>
+			<Category>3D</Category>
+			<Description>Create Realistic Hair For NPCs and Players</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">Realistic NPC/Player Hair</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Option To Add Community Workshop In Game</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Adds the ability to add a community workshop so the community can make mods. Developers can turn this on or off while creating their game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2010</Unlock>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Increase FPS of Game</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Increase The FPS on Your Game</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2010</Unlock>
+		</Feature>
+		<Feature From="Increase FPS of Game" Vital="TRUE">
+			<Name>Increase FPS of Game By: 85%</Name>
+			<Category>Coding</Category>
+			<Description>Increase The FPS on Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">Increase FPS of Game</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Vegetation</Name>
+			<Category>3D</Category>
+			<ArtCategory>World</ArtCategory>
+            <Description>Add Vegetation Into Your Game</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1985</Unlock>
+		</Feature>
+		<Feature From="Vegetation" Vital="TRUE">
+			<Name>Vegetation V2</Name>
+			<Category>3D</Category>
+			<Description>Add More Vegetation Into Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">Vegetation</Dependency>
+		</Feature>
+		<Feature From="Vegetation V2" Vital="TRUE">
+			<Name>Improve Textures of Vegetation</Name>
+			<Category>Textures</Category>
+			<Description>Add More Vegetation Textures Into Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2016</Unlock>
+			<Dependency Software="Game Engine">Vegetation V2</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Support VR</Name>
+			<Category>3D</Category>
+			<ArtCategory>World</ArtCategory>
+            <Description>Make Your Game VR Supported</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2016</Unlock>
+		</Feature>
+        <Feature Forced="False">
+            <Name>FXAA</Name>
+			<Category>Textures</Category>
+			<ArtCategory>Effects</ArtCategory>
+            <Description>Make Your Game Look Better</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2008</Unlock>
+		</Feature>
+        <Feature Forced="False">
+            <Name>MSAA</Name>
+			<Category>Textures</Category>
+			<ArtCategory>World</ArtCategory>
+            <Description>Make Your Game Look Better</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2008</Unlock>
+		</Feature>
+        <Feature Forced="False">
+            <Name>Anti-Aliasing x2</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Make Your Game Look Better</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2000</Unlock>
+		</Feature>
+		<Feature From="Anti-Aliasing x2" Vital="TRUE">
+			<Name>Anti-Aliasing x4</Name>
+			<Category>3D</Category>
+			<Description>Make Your Game Look Better</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2006</Unlock>
+			<Dependency Software="Game Engine">Anti-Aliasing x2</Dependency>
+		</Feature>
+		<Feature From="Anti-Aliasing x4" Vital="TRUE">
+			<Name>Anti-Aliasing x6</Name>
+			<Category>3D</Category>
+			<Description>Make Your Game Look Better</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2008</Unlock>
+			<Dependency Software="Game Engine">Anti-Aliasing x4</Dependency>
+		</Feature>
+		<Feature From="Anti-Aliasing x6" Vital="TRUE">
+			<Name>Anti-Aliasing x8</Name>
+			<Category>3D</Category>
+			<Description>Make Your Game Look Better</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">Anti-Aliasing x6</Dependency>
+		</Feature>
+		<Feature From="Anti-Aliasing x8" Vital="TRUE">
+			<Name>Anti-Aliasing x16</Name>
+			<Category>3D</Category>
+			<Description>Make Your Game Look Better</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2016</Unlock>
+			<Dependency Software="Game Engine">Anti-Aliasing x8</Dependency>
+		</Feature>
+		<Feature From="Anti-Aliasing x16" Vital="TRUE">
+			<Name>Anti-Aliasing x32</Name>
+			<Category>3D</Category>
+			<Description>Make Your Game Look Better</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">Anti-Aliasing x16</Dependency>
+		</Feature>
         <Feature Forced="True">
+            <Name>Base</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Game Engine Base</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Forced="False">
+            <Name>WeaponSmith</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Allow Players To Customize Their Weapons</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2004</Unlock>
+		</Feature>
+		<Feature From="WeaponSmith" Vital="TRUE">
+			<Name>WeaponSmith - Improved</Name>
+			<Category>3D</Category>
+			<Description>Allow Players To Customize Their Weapons</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">WeaponSmith</Dependency>
+		</Feature>
+		<Feature From="WeaponSmith - Improved" Vital="TRUE">
+			<Name>WeaponSmith - Improved v2</Name>
+			<Category>3D</Category>
+			<Description>Allow Players To Customize Their Weapons</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">WeaponSmith - Improved</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>AI Path Finding</Name>
+			<Category>Coding</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Help The AI Out</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2008</Unlock>
+		</Feature>
+		<Feature From="AI Path Finding" Vital="TRUE">
+			<Name>Improved AI Path Finding v2</Name>
+			<Category>Coding</Category>
+			<Description>Help The AI Out</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">AI Path Finding</Dependency>
+		</Feature>
+		<Feature From="Improved AI Path Finding v2" Vital="TRUE">
+			<Name>Improved AI Path Finding v3</Name>
+			<Category>Coding</Category>
+			<Description>Help The AI Out</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2014</Unlock>
+			<Dependency Software="Game Engine">Improved AI Path Finding v2</Dependency>
+		</Feature>
+		<Feature From="Improved AI Path Finding v3" Vital="TRUE">
+			<Name>Improved AI Path Finding v4</Name>
+			<Category>Coding</Category>
+			<Description>Help The AI Out</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2016</Unlock>
+			<Dependency Software="Game Engine">Improved AI Path Finding v3</Dependency>
+		</Feature>
+		<Feature From="Improved AI Path Finding v4" Vital="TRUE">
+			<Name>Improved AI Path Finding v5</Name>
+			<Category>Coding</Category>
+			<Description>Help The AI Out</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">Improved AI Path Finding v4</Dependency>
+		</Feature>
+		<Feature From="Improved AI Path Finding v5" Vital="TRUE">
+			<Name>Improved AI Path Finding v6</Name>
+			<Category>Coding</Category>
+			<Description>Help The AI Out</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2020</Unlock>
+			<Dependency Software="Game Engine">Improved AI Path Finding v5</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>3D Grass</Name>
+			<Category>3D</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Make The Grass 3D For A More Realistic Look</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2015</Unlock>
+		</Feature>
+		<Feature From="3D Grass" Vital="TRUE">
+			<Name>3D Grass V2</Name>
+			<Category>3D</Category>
+			<Description>Make The Grass 3D For A More Realistic Look</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">3D Grass</Dependency>
+		</Feature>
+        <Feature Forced="False">
+            <Name>HD Grass</Name>
+			<Category>3D</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2008</Unlock>
+		</Feature>
+		<Feature From="HD Grass" Vital="TRUE">
+			<Name>HD Grass v2</Name>
+			<Category>3D</Category>
+			<Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">HD Grass</Dependency>
+		</Feature>
+		<Feature From="HD Grass v2" Vital="TRUE">
+			<Name>HD Grass v3</Name>
+			<Category>3D</Category>
+			<Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2012</Unlock>
+			<Dependency Software="Game Engine">HD Grass v2</Dependency>
+		</Feature>
+		<Feature From="HD Grass v3" Vital="TRUE">
+			<Name>HD Grass v4</Name>
+			<Category>3D</Category>
+			<Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2014</Unlock>
+			<Dependency Software="Game Engine">HD Grass v3</Dependency>
+		</Feature>
+		<Feature From="HD Grass v4" Vital="TRUE">
+			<Name>HD Grass v5</Name>
+			<Category>3D</Category>
+			<Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2016</Unlock>
+			<Dependency Software="Game Engine">HD Grass v4</Dependency>
+		</Feature>
+		<Feature From="HD Grass v5" Vital="TRUE">
+			<Name>Photorealistic Grass</Name>
+			<Category>3D</Category>
+			<Description>Improve The Grass Textures In Your Game</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">HD Grass v5</Dependency>
+		</Feature>
+        <Feature Forced="False">
             <Name>Menus/HUD</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -107,7 +562,7 @@
 			<Unlock>2025</Unlock>
 			<Dependency Software="Game Engine">Improve Menus/HUD v6</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>User Created Mods Option/Support</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -119,7 +574,7 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2010</Unlock>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Story Mode</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -191,7 +646,7 @@
 			<Unlock>2018</Unlock>
 			<Dependency Software="Game Engine">Story Choices</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Player Creation</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -203,7 +658,31 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2007</Unlock>
 		</Feature>
-        <Feature Forced="True">
+		<Feature From="Player Creation" Vital="TRUE">
+			<Name>Player Customization</Name>
+			<Category>3D</Category>
+			<Description>Allow Players To Customize Their Avatar</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2010</Unlock>
+			<Dependency Software="Game Engine">Player Creation</Dependency>
+		</Feature>
+		<Feature From="Player Customization" Vital="TRUE">
+			<Name>PlayerSmith</Name>
+			<Category>3D</Category>
+			<Description>Allow Players To Customize Their Avatar</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2016</Unlock>
+			<Dependency Software="Game Engine">Player Customization</Dependency>
+		</Feature>
+        <Feature Forced="False">
             <Name>Vehicles</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -227,7 +706,7 @@
 			<Unlock>2005</Unlock>
 			<Dependency Software="Game Engine">Vehicles</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Expand AI Limits v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -275,7 +754,7 @@
 			<Unlock>2022</Unlock>
 			<Dependency Software="Game Engine">Expand AI Limits v3</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>NPC and Player Skin Textures v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -359,7 +838,7 @@
 			<Unlock>2025</Unlock>
 			<Dependency Software="Game Engine">NPC and Player Skin Textures v6</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Dynamic Lighting</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -419,7 +898,7 @@
 			<Unlock>2028</Unlock>
 			<Dependency Software="Game Engine">Dynamic Lights/Fog v3</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Skill Tree</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -431,7 +910,7 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2005</Unlock>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>DirectX</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -443,10 +922,10 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2005</Unlock>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Ambient Sounds</Name>
-			<Category>3D</Category>
-			<ArtCategory>Writing</ArtCategory>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
             <Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -457,7 +936,7 @@
 		</Feature>
 		<Feature From="Ambient Sounds" Vital="TRUE">
 			<Name>Ambient Sounds v2</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -469,7 +948,7 @@
 		</Feature>
 		<Feature From="Ambient Sounds v2" Vital="TRUE">
 			<Name>Ambient Sounds v3</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -481,7 +960,7 @@
 		</Feature>
 		<Feature From="Ambient Sounds v3" Vital="TRUE">
 			<Name>Ambient Sounds v4</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -493,7 +972,7 @@
 		</Feature>
 		<Feature From="Ambient Sounds v4" Vital="TRUE">
 			<Name>Ambient Sounds v5</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -505,7 +984,7 @@
 		</Feature>
 		<Feature From="Ambient Sounds v5" Vital="TRUE">
 			<Name>Ambient Sounds v6</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Ambient Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -515,10 +994,10 @@
 			<Unlock>2022</Unlock>
 			<Dependency Software="Game Engine">Ambient Sounds v5</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Surround Sound</Name>
-			<Category>3D</Category>
-			<ArtCategory>Writing</ArtCategory>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
             <Description>Apply Surround Sound To Your New Game</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -529,7 +1008,7 @@
 		</Feature>
 		<Feature From="Surround Sound" Vital="TRUE">
 			<Name>Surround Sound v2</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Surround Sound To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -541,7 +1020,7 @@
 		</Feature>
 		<Feature From="Surround Sound v2" Vital="TRUE">
 			<Name>Surround Sound v3</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Surround Sound To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -553,7 +1032,7 @@
 		</Feature>
 		<Feature From="Surround Sound v3" Vital="TRUE">
 			<Name>Surround Sound v4</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Surround Sound To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -563,10 +1042,10 @@
 			<Unlock>2025</Unlock>
 			<Dependency Software="Game Engine">Surround Sound v3</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Low Quality Sounds</Name>
-			<Category>3D</Category>
-			<ArtCategory>Writing</ArtCategory>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
             <Description>Apply Sounds To Your New Game</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -577,7 +1056,7 @@
 		</Feature>
 		<Feature From="Low Quality Sounds" Vital="TRUE">
 			<Name>Medium Quality Sounds</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -589,7 +1068,7 @@
 		</Feature>
 		<Feature From="Medium Quality Sounds" Vital="TRUE">
 			<Name>High Quality Sounds</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -601,7 +1080,7 @@
 		</Feature>
 		<Feature From="High Quality Sounds" Vital="TRUE">
 			<Name>Ultra Quality Sounds</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -613,7 +1092,7 @@
 		</Feature>
 		<Feature From="Ultra Quality Sounds" Vital="TRUE">
 			<Name>Hyper Quality Sounds</Name>
-			<Category>3D</Category>
+			<Category>Audio</Category>
 			<Description>Apply Sounds To Your New Game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -623,7 +1102,7 @@
 			<Unlock>2018</Unlock>
 			<Dependency Software="Game Engine">Ultra Quality Sounds</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Open World</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -695,7 +1174,31 @@
 			<Unlock>2025</Unlock>
 			<Dependency Software="Game Engine">Bigger Open World v4</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
+            <Name>3D Sky</Name>
+			<Category>3D</Category>
+			<ArtCategory>Writing</ArtCategory>
+            <Description>Create and Design a 3D Sky to Put Into your game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2016</Unlock>
+		</Feature>
+		<Feature From="3D Sky" Vital="TRUE">
+			<Name>Create and Design a 3D Sky to Put Into Your Game</Name>
+			<Category>3D</Category>
+			<Description>Create and Design a Sky and to Put Into your game.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>	
+			<Unlock>2018</Unlock>
+			<Dependency Software="Game Engine">3D Sky</Dependency>
+		</Feature>
+        <Feature Forced="False">
             <Name>Sky</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -755,7 +1258,7 @@
 			<Unlock>2010</Unlock>
 			<Dependency Software="Game Engine">Clouds</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>World Graphics/Textures</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -899,7 +1402,7 @@
 			<Unlock>2040</Unlock>
 			<Dependency Software="Game Engine">World Graphics/Textures v10</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>3D Assets v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -995,7 +1498,7 @@
 			<Unlock>2020</Unlock>
 			<Dependency Software="Game Engine">3D Assets v7</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>World Mapping v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1115,7 +1618,7 @@
 			<Unlock>2035</Unlock>
 			<Dependency Software="Game Engine">World Mapping v9</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Smart AI</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1199,10 +1702,10 @@
 			<Unlock>2030</Unlock>
 			<Dependency Software="Game Engine">Smart AI v6</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>AI</Name>
-			<Category>3D</Category>
-			<ArtCategory>Writing</ArtCategory>
+			<Category>Algorithm</Category>
+			<ArtCategory>Algorithm</ArtCategory>
             <Description>Add Artificial Intelligence to your game</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -1213,7 +1716,7 @@
 		</Feature>
 		<Feature From="AI" Vital="TRUE">
 			<Name>CPU Players</Name>
-			<Category>3D</Category>
+			<Category>Algorithm</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1225,7 +1728,7 @@
 		</Feature>
 		<Feature From="CPU Players" Vital="TRUE">
 			<Name>CPU Player Level</Name>
-			<Category>3D</Category>
+			<Category>Algorithm</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1237,7 +1740,7 @@
 		</Feature>
 		<Feature From="CPU Player Level" Vital="TRUE">
 			<Name>AI Mapping</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1249,7 +1752,7 @@
 		</Feature>
 		<Feature From="AI Mapping" Vital="TRUE">
 			<Name>AI Mapping v2</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1261,7 +1764,7 @@
 		</Feature>
 		<Feature From="AI Mapping v2" Vital="TRUE">
 			<Name>AI Mapping v3</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1273,7 +1776,7 @@
 		</Feature>
 		<Feature From="AI Mapping v3" Vital="TRUE">
 			<Name>Realistic AI Mapping v1</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1285,7 +1788,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v1" Vital="TRUE">
 			<Name>Realistic AI Mapping v2</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1297,7 +1800,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v2" Vital="TRUE">
 			<Name>Realistic AI Mapping v3</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1309,7 +1812,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v3" Vital="TRUE">
 			<Name>Realistic AI Mapping v4</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1321,7 +1824,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v4" Vital="TRUE">
 			<Name>Realistic AI Mapping v5</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1333,7 +1836,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v5" Vital="TRUE">
 			<Name>Realistic AI Mapping v6</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1345,7 +1848,7 @@
 		</Feature>
 		<Feature From="Realistic AI Mapping v6" Vital="TRUE">
 			<Name>Improved AI Mapping, Human Realistic</Name>
-			<Category>3D</Category>
+			<Category>Coding</Category>
 			<Description>Add AI to your game</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -1355,7 +1858,7 @@
 			<Unlock>2032</Unlock>
 			<Dependency Software="Game Engine">Realistic AI Mapping v6</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Weather And Seasons v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1475,7 +1978,7 @@
 			<Unlock>2032</Unlock>
 			<Dependency Software="Game Engine">Weather And Seasons v9</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Shaders</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1607,7 +2110,7 @@
 			<Unlock>2032</Unlock>
 			<Dependency Software="Game Engine">Shaders v9</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Visual Settings</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1727,7 +2230,7 @@
 			<Unlock>2028</Unlock>
 			<Dependency Software="Game Engine">Super (16k (Better than Human Eye))</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Visual/World Graphics Part 2</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1859,7 +2362,7 @@
 			<Unlock>2045</Unlock>
 			<Dependency Software="Game Engine">Photorealism v9</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Visual/World Graphics</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -1979,7 +2482,7 @@
 			<Unlock>2025</Unlock>
 			<Dependency Software="Game Engine">8k (Human Eye)</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Model Settings</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -2074,7 +2577,7 @@
 			<Unlock>2030</Unlock>
 			<Dependency Software="Game Engine">8k Poly</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Models</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -2194,7 +2697,7 @@
 			<Unlock>2018</Unlock>
 			<Dependency Software="Game Engine">High Poly</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>HD Graphics v1</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -2386,7 +2889,7 @@
 			<Unlock>2032</Unlock>
 			<Dependency Software="Game Engine">HD Graphics v15</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>MoCap</Name>
 			<Category>3D</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -2516,7 +3019,7 @@
 			<Unlock>2028</Unlock>
 			<Dependency Software="Game Engine">Realistic Body Language v5</Dependency>
 		</Feature>
-        <Feature Forced="True">
+        <Feature Forced="False">
             <Name>Text core</Name>
 			<Category>Databases</Category>
 			<ArtCategory>Writing</ArtCategory>
@@ -2660,7 +3163,7 @@
 			<Dependency Software="Operating System">HD audio</Dependency>
 			<Dependency Software="Game Engine">8-bit audio</Dependency>
 		</Feature>
-			<Feature Forced="True">
+			<Feature Forced="False">
 			<Name>Sequential Events</Name>
 			<Category>Databases</Category>
 			<Description>A. B. C. D. Not always as boring as it sounds here.</Description>

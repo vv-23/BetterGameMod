@@ -68,7 +68,8 @@
 			<Stability>1</Stability>            
 			<CodeArt>0.6</CodeArt>
 			<Unlock>1975</Unlock>
-			<Dependency Software="2D Editor">CLI</Dependency>
+			<Dependency Software="Audio Tool">CLI</Dependency>
+			<Dependency Software="2D Editor">Integral GUI</Dependency>
         </Feature>
 		<Feature From="GUI">
 			<Name>HUI</Name>
